@@ -87,6 +87,7 @@ To install ScreenService on the endpoint it is necessary to [download](https://g
 #### Hardware Setup
 
 [![Raspberry pinout](https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png)](https://www.raspberrypi.org/documentation/usage/gpio/)
+(Source [https://www.raspberrypi.org/](https://www.raspberrypi.org))
 
 The reed contact is connected to Pin 9 (Ground) and Pin 11 (GPIO 17). To get low/high level the circuit is driven with the internal pullup resistor of the raspberry.
 
@@ -122,7 +123,7 @@ chmod 0777 /opt/screen/service
   "HTTP_PORT": 8080,
   "HTTPS_PORT": 8443,
   "Link": "screen",
-  "Port": 17
+  "Port": 17,
   "Certificate": "DEMO.crt"
 }
 ```
