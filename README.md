@@ -4,7 +4,7 @@
 
 ## Description:
 
-Windows Tool that pools within a configured time a REST API on a raspberry. The REST API delivers the status of a reed contact (true/false), that is connected to the raspberry PI. With the tool specified display in the software gets rotated.
+Windows Tool that is polling within a configured time a REST API on a raspberry. The REST API delivers the status of a reed contact (true/false), that is connected to the raspberry PI. With the tool specified display in the software gets rotated.
 
 [![ScreenRotator](https://github.com/sunriax/screen/raw/develop/screenrotator.png)](https://github.com/sunriax/screen/tree/master/ScreenRotator)
 
